@@ -1,4 +1,4 @@
 package CodinProblems;
 
-public class CountingDuuplicateCharacters {
+public class CountingDuplicateCharacters {
 }
