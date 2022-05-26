@@ -1,6 +1,5 @@
-package StreamIQ;
+package StreamJava8IQ;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -23,7 +22,7 @@ public class IgnoreFirstFiveNumbers {
     }
 
     private static int SumListOfLimitNumber(List<Integer> list) {
-       int sum =  list.stream().limit(6).reduce((p,q) -> p+q).get();
+       int sum =  list.stream().limit(6).reduce(Integer::sum).get();
         return sum;
     }
     private static List<Integer> SkipListOfLimitNumber(List<Integer> list) {

@@ -1,8 +1,7 @@
-package StreamIQ;
+package StreamJava8IQ;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class OddAndEvenNumber {

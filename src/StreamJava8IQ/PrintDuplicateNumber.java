@@ -1,4 +1,4 @@
-package StreamIQ;
+package StreamJava8IQ;
 
 import java.util.*;
 import java.util.stream.Collectors;

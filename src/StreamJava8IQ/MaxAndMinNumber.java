@@ -1,4 +1,4 @@
-package StreamIQ;
+package StreamJava8IQ;
 
 import java.util.Arrays;
 import java.util.Comparator;
